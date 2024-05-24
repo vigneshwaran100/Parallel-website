@@ -1,0 +1,165 @@
+/* Styling the body */
+		* {
+			margin: 0px;
+			padding: 0px;
+		}
+
+		/* Styling the first parallax's 
+		height, width and background color */
+		.parallax-1 {
+			width: 100%;
+			height: 600px;
+			background: url("https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3JhZGllbnR8ZW58MHx8MHx8fDA%3D");
+			background-size: 100% 100%;
+			background-attachment: fixed;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 2fr 2fr;
+            gap: 10px;
+            color: whitesmoke;
+            
+		}
+        .item1{
+            border: 2px rgb(8, 8, 8) solid;
+            background: #E178C5;
+            grid-area: 1/1;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            color: black;
+        }
+        .item2{
+            border: 2px rgb(8, 8, 8) solid;
+            background: #FF8E8F;
+            grid-area: 1/2/4;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            color: black;
+
+            
+        }
+        .item3{
+            border: 2px rgb(8, 8, 8) solid;
+            background: #FFFDCB ;
+            grid-area: 2/1;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            color: black;
+
+        }
+        .parallax-1 h1{
+            text-align: center;
+            margin-bottom: 2px;
+        }
+
+		/* Styling the title of first parallax */
+		.parallax-11 h2 {
+			margin: auto;
+			position: relative;
+			top: 300px;
+			width: 250px;
+			height: 32px;
+			padding: 10px;
+			background-color: black;
+			color: white;
+			text-align: center;
+            border-radius: 10px;
+		}
+
+		/* Styling the second parallax's 
+		height, width and background color */
+		.parallax-2 {
+			width: 100%;
+			height: 600px;
+			background: url(
+'https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=829&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+			background-size: 100% 100%;
+			background-attachment: fixed;
+		}
+
+		/* Styling the title of second parallax */
+		.parallax-2 h2 {
+			margin: auto;
+			position: relative;
+			left: 500x;
+			top: 300px;
+			width: 250px;
+			height: 37px;
+			padding: 10px;
+			background-color: white;
+			color: black;
+			text-align: center;
+			font-size: 30px;
+			font-family: Verdana;
+            border-radius: 10px;
+
+		}
+
+		/* Styling the content or paragraph */
+		.para-1 {
+            position: relative;
+			padding: 50px;
+			background-color: black;
+			color: white;
+			font-size: 17px;
+		}
+
+		/* Styling the content or paragraph */
+		.para-2 {
+			text-align: center;
+			padding: 25px;
+			font-size: 17px;
+			font-family: Verdana;
+			background-color: black;
+			color: white;
+		}
+        .mainmenu{
+            display: flex;
+            flex-direction: row;
+            height: 50px;
+            background-color: black;
+            justify-content: center;
+            padding: 20px 20px 0 20px;
+            font-size: 23px;
+            text-align: center;
+            
+        }
+        .mainmenu a{
+            text-decoration: none;
+            list-style: none;
+            color: white;
+            margin: 50px;
+            
+           }
+        .parallax-11{
+            width: 100%;
+			height: 600px;
+			background: url("https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3JhZGllbnR8ZW58MHx8MHx8fDA%3D");
+			background-size: 100% 100%;
+			background-attachment: fixed;
+            position: relative;            
+        }
+        @media only screen and (max-width: 600px) {
+            .mainmenu a{
+                font-size: 10px;
+                font-weight: bold;
+                color: white;
+                margin: 10px;
+            }
+            .parallax-1 {
+                width: 100%;
+                height: 1500px;
+                background: url("https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3JhZGllbnR8ZW58MHx8MHx8fDA%3D");
+                background-size: 100% 100%;
+                background-attachment: fixed;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 2fr 2fr;
+                gap: 10px;
+                color: whitesmoke;
+                
+            }
+          }
+       
